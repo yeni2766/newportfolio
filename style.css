@@ -606,3 +606,12 @@ main {
         justify-content: center;
     }
 }
+
+@media screen and (min-width:736px) and (max-width:992px){
+    .hero__text-content {
+        transform: translateY(-40%); 
+        padding-left: 30px; 
+        width: 70%; 
+        margin-bottom: 150px;
+    }
+}
