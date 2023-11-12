@@ -124,7 +124,11 @@ main {
     left: 50%; 
     transform: translatex(-50%); 
 }
-
+.logo{
+    position: absolute;
+    top:-190px;
+    left:-50px;
+}
 .nav__logo {
     font-size: 24px; 
     line-height: 1.33; 
@@ -593,7 +597,7 @@ main {
 @media screen and (max-width:736px) {
     .hero__content{
         position: relative;
-        top: 130px;
+        top: 190px;
         margin-bottom: 150px;
     }
 
@@ -605,13 +609,22 @@ main {
         gap:30px;
         justify-content: center;
     }
+    .logo{
+        position: absolute;
+        top:-130px;
+    }
 }
 
-@media screen and (min-width:736px) and (max-width:992px){
+@media screen and (min-width:736px) and (max-width:1024px){
     .hero__text-content {
         transform: translateY(-40%); 
         padding-left: 30px; 
         width: 70%; 
         margin-bottom: 150px;
+    }
+
+    .logo{
+        position: absolute;
+        left:-120px;
     }
 }
