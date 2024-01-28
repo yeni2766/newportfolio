@@ -379,8 +379,12 @@ main {
     line-height: 1.25; 
     text-transform: uppercase;
     margin: 20px 0 7px 0; 
+    text-decoration: none;
 }
-
+a{
+    text-decoration: none;
+    color:white;
+}
 .projects-container__languages {
     font-size: 18px; 
     line-height: 1.55; 
